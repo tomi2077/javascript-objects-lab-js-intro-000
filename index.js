@@ -5,6 +5,6 @@ object[key] = value
 return object
 }
 
-updateObjectWithKeyAndValue = (object, key, value) => {
+var updateObjectWithKeyAndValue = (object, key, value) => {
   object_clone
 }
