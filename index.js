@@ -9,4 +9,6 @@ var destructivelyUpdateObjectWithKeyAndValue = (object, key, value) => {
     return object;
 }
 
-var deleteFromObjectByKey(object, key)
+var deleteFromObjectByKey = (object, key) =>{
+  delete.object(key)
+}
